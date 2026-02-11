@@ -1,0 +1,51 @@
+name: oheng-bapsang
+
+services:
+  oheng-bapsang:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: oheng-bapsang:RELOAD
+    container_name: oheng-bapsang-app
+    ports:
+      - "8080:3000"
+    environment:
+      - NODE_ENV=production
+      - GROK_API_KEY=${GROK_API_KEY:-}
+      - GROK_API_BASE_URL=${GROK_API_BASE_URL:-https://api.x.ai/v1}
+      - THEMEALDB_API_KEY=${THEMEALDB_API_KEY:-1}
+      - THEMEALDB_API_BASE_URL=${THEMEALDB_API_BASE_URL:-https://www.themealdb.com/api/json/v1}
+      - NEXT_PUBLIC_APP_NAME=${NEXT_PUBLIC_APP_NAME:-오행밥상}
+      - NEXT_PUBLIC_APP_URL=${NEXT_PUBLIC_APP_URL:-http://localhost:3000}
+    env_file:
+      - .env.local
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # 개발용 서비스 (선택적)
+  oheng-bapsang-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: oheng-bapsang-dev
+    ports:
+      - "3001:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+    environment:
+      - NODE_ENV=development
+      - GROK_API_KEY=${GROK_API_KEY:-}
+      - GROK_API_BASE_URL=${GROK_API_BASE_URL:-https://api.x.ai/v1}
+      - THEMEALDB_API_KEY=${THEMEALDB_API_KEY:-1}
+      - THEMEALDB_API_BASE_URL=${THEMEALDB_API_BASE_URL:-https://www.themealdb.com/api/json/v1}
+    env_file:
+      - .env.local
+    profiles:
+      - dev

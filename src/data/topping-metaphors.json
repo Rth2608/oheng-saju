@@ -1,0 +1,51 @@
+{
+    "metaphors": {
+        "wood": {
+            "topping": "루꼴라 & 바질",
+            "emoji": "🌿",
+            "description": "새싹처럼 싱그러운 기운이 넘치는 당신!",
+            "pizzaName": "그린 가든 피자",
+            "vibe": "상쾌하고 생동감 있는"
+        },
+        "fire": {
+            "topping": "페퍼로니 & 핫소스",
+            "emoji": "🔥",
+            "description": "열정이 불타오르는 핫한 에너지!",
+            "pizzaName": "인페르노 피자",
+            "vibe": "열정적이고 에너지 넘치는"
+        },
+        "earth": {
+            "topping": "치즈 & 감자",
+            "emoji": "🏔️",
+            "description": "듬직하고 부드러운 안정감!",
+            "pizzaName": "컴포트 피자",
+            "vibe": "든든하고 포근한"
+        },
+        "metal": {
+            "topping": "마늘 & 화이트소스",
+            "emoji": "⚔️",
+            "description": "결단력 있고 깔끔한 기운!",
+            "pizzaName": "화이트 나이트 피자",
+            "vibe": "깔끔하고 결단력 있는"
+        },
+        "water": {
+            "topping": "앤초비 & 올리브",
+            "emoji": "🌊",
+            "description": "깊고 유연한 지혜의 물결!",
+            "pizzaName": "오션 웨이브 피자",
+            "vibe": "깊이 있고 지혜로운"
+        }
+    },
+    "combinations": {
+        "wood_fire": "불타는 숲의 에너지! 창의력과 열정의 조화",
+        "wood_earth": "대지를 뚫고 자라는 나무! 성장과 안정",
+        "wood_metal": "금속 도끼와 나무의 긴장! 도전적인 기운",
+        "wood_water": "물을 먹고 자라는 나무! 지혜로운 성장",
+        "fire_earth": "용광로의 뜨거움! 열정을 담은 안정",
+        "fire_metal": "대장간의 불꽃! 단련의 에너지",
+        "fire_water": "스팀의 기운! 상반된 힘의 균형",
+        "earth_metal": "광산의 보물! 깊이 있는 가치",
+        "earth_water": "저수지의 평화! 포용과 지혜",
+        "metal_water": "맑은 샘물! 정화와 흐름"
+    }
+}

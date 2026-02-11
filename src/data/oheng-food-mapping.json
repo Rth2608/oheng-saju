@@ -1,0 +1,367 @@
+{
+    "wood": {
+        "name": "목",
+        "hanja": "木",
+        "color": "#4CAF50",
+        "taste": "신맛",
+        "organ": "간",
+        "season": "봄",
+        "direction": "동",
+        "characteristics": [
+            "성장",
+            "생동",
+            "유연",
+            "창의"
+        ],
+        "foods": [
+            {
+                "name": "샐러드",
+                "category": "채소",
+                "reason": "푸른 잎채소는 목의 기운을 보충합니다"
+            },
+            {
+                "name": "시금치나물",
+                "category": "채소",
+                "reason": "녹색 채소가 간을 보호합니다"
+            },
+            {
+                "name": "레몬차",
+                "category": "음료",
+                "reason": "신맛이 목의 기운을 활성화합니다"
+            },
+            {
+                "name": "식초요리",
+                "category": "양념",
+                "reason": "산미가 목 기운을 돕습니다"
+            },
+            {
+                "name": "매실청",
+                "category": "음료",
+                "reason": "신맛과 녹색이 조화를 이룹니다"
+            },
+            {
+                "name": "부추전",
+                "category": "전",
+                "reason": "녹색 부추가 간 건강에 좋습니다"
+            },
+            {
+                "name": "오이냉국",
+                "category": "국",
+                "reason": "시원하고 청량한 기운"
+            },
+            {
+                "name": "브로콜리",
+                "category": "채소",
+                "reason": "녹색 채소의 대표"
+            }
+        ],
+        "avoidFoods": [
+            {
+                "name": "튀김류",
+                "reason": "금의 기운이 목을 극합니다"
+            },
+            {
+                "name": "매운 음식",
+                "reason": "금의 맛이 목을 억제합니다"
+            }
+        ],
+        "toppings": [
+            "루꼴라",
+            "바질",
+            "시금치",
+            "할라피뇨"
+        ]
+    },
+    "fire": {
+        "name": "화",
+        "hanja": "火",
+        "color": "#F44336",
+        "taste": "쓴맛",
+        "organ": "심장",
+        "season": "여름",
+        "direction": "남",
+        "characteristics": [
+            "열정",
+            "활동",
+            "따뜻함",
+            "기쁨"
+        ],
+        "foods": [
+            {
+                "name": "삼겹살",
+                "category": "고기",
+                "reason": "불에 구운 고기는 화의 기운을 높입니다"
+            },
+            {
+                "name": "매운탕",
+                "category": "국",
+                "reason": "뜨겁고 매운 국물이 심장을 따뜻하게 합니다"
+            },
+            {
+                "name": "고추장찌개",
+                "category": "찌개",
+                "reason": "붉은색과 매운맛이 화를 보충합니다"
+            },
+            {
+                "name": "불고기",
+                "category": "고기",
+                "reason": "불의 기운으로 조리한 음식"
+            },
+            {
+                "name": "닭볶음탕",
+                "category": "탕",
+                "reason": "붉은 양념과 열기"
+            },
+            {
+                "name": "토마토파스타",
+                "category": "면",
+                "reason": "붉은 토마토가 화의 기운"
+            },
+            {
+                "name": "비빔밥",
+                "category": "밥",
+                "reason": "고추장의 붉은 기운"
+            },
+            {
+                "name": "떡볶이",
+                "category": "분식",
+                "reason": "붉은 고추장 소스"
+            }
+        ],
+        "avoidFoods": [
+            {
+                "name": "냉면",
+                "reason": "수의 차가운 기운이 화를 극합니다"
+            },
+            {
+                "name": "아이스크림",
+                "reason": "차가운 음식이 심장에 부담"
+            }
+        ],
+        "toppings": [
+            "페퍼로니",
+            "핫소스",
+            "고추",
+            "살라미"
+        ]
+    },
+    "earth": {
+        "name": "토",
+        "hanja": "土",
+        "color": "#FFC107",
+        "taste": "단맛",
+        "organ": "비장",
+        "season": "환절기",
+        "direction": "중앙",
+        "characteristics": [
+            "안정",
+            "균형",
+            "포용",
+            "신뢰"
+        ],
+        "foods": [
+            {
+                "name": "호박죽",
+                "category": "죽",
+                "reason": "달콤한 호박이 비장을 보호합니다"
+            },
+            {
+                "name": "고구마",
+                "category": "간식",
+                "reason": "노란색과 단맛이 토 기운을 보충합니다"
+            },
+            {
+                "name": "단팥빵",
+                "category": "빵",
+                "reason": "달콤함이 토의 기운"
+            },
+            {
+                "name": "쌀밥",
+                "category": "밥",
+                "reason": "곡물은 토의 기본 음식입니다"
+            },
+            {
+                "name": "감자탕",
+                "category": "탕",
+                "reason": "감자의 노란색과 든든함"
+            },
+            {
+                "name": "카레라이스",
+                "category": "밥",
+                "reason": "노란 카레가 토의 기운"
+            },
+            {
+                "name": "고구마라떼",
+                "category": "음료",
+                "reason": "달콤하고 든든한 기운"
+            },
+            {
+                "name": "옥수수",
+                "category": "간식",
+                "reason": "노란색 곡물"
+            }
+        ],
+        "avoidFoods": [
+            {
+                "name": "신 음식",
+                "reason": "목의 신맛이 토를 극합니다"
+            },
+            {
+                "name": "레몬",
+                "reason": "과도한 신맛은 비장에 부담"
+            }
+        ],
+        "toppings": [
+            "치즈",
+            "감자",
+            "옥수수",
+            "달걀"
+        ]
+    },
+    "metal": {
+        "name": "금",
+        "hanja": "金",
+        "color": "#9E9E9E",
+        "taste": "매운맛",
+        "organ": "폐",
+        "season": "가을",
+        "direction": "서",
+        "characteristics": [
+            "결단",
+            "정의",
+            "청결",
+            "수렴"
+        ],
+        "foods": [
+            {
+                "name": "무생채",
+                "category": "반찬",
+                "reason": "하얀 무가 폐를 맑게 합니다"
+            },
+            {
+                "name": "백김치",
+                "category": "김치",
+                "reason": "하얀 김치가 금의 기운"
+            },
+            {
+                "name": "배숙",
+                "category": "음료",
+                "reason": "배의 흰색이 폐를 보호합니다"
+            },
+            {
+                "name": "도라지무침",
+                "category": "반찬",
+                "reason": "도라지가 폐에 좋습니다"
+            },
+            {
+                "name": "콩나물국",
+                "category": "국",
+                "reason": "하얀 콩나물의 청량함"
+            },
+            {
+                "name": "두부요리",
+                "category": "반찬",
+                "reason": "흰 두부가 금의 기운"
+            },
+            {
+                "name": "마늘요리",
+                "category": "양념",
+                "reason": "매운맛이 금을 보충"
+            },
+            {
+                "name": "양파볶음",
+                "category": "반찬",
+                "reason": "흰색과 매운맛"
+            }
+        ],
+        "avoidFoods": [
+            {
+                "name": "매운탕",
+                "reason": "화의 뜨거운 기운이 금을 극합니다"
+            },
+            {
+                "name": "삼겹살",
+                "reason": "과도한 열기는 폐에 부담"
+            }
+        ],
+        "toppings": [
+            "마늘",
+            "양파",
+            "버섯",
+            "화이트소스"
+        ]
+    },
+    "water": {
+        "name": "수",
+        "hanja": "水",
+        "color": "#2196F3",
+        "taste": "짠맛",
+        "organ": "신장",
+        "season": "겨울",
+        "direction": "북",
+        "characteristics": [
+            "지혜",
+            "유연",
+            "침착",
+            "적응"
+        ],
+        "foods": [
+            {
+                "name": "해물탕",
+                "category": "탕",
+                "reason": "바다의 기운이 신장을 보호합니다"
+            },
+            {
+                "name": "미역국",
+                "category": "국",
+                "reason": "검은 해조류가 수의 기운"
+            },
+            {
+                "name": "검은콩밥",
+                "category": "밥",
+                "reason": "검은색 콩이 신장에 좋습니다"
+            },
+            {
+                "name": "조개탕",
+                "category": "탕",
+                "reason": "바다의 짠맛이 수를 보충"
+            },
+            {
+                "name": "회",
+                "category": "해산물",
+                "reason": "신선한 바다의 기운"
+            },
+            {
+                "name": "젓갈",
+                "category": "반찬",
+                "reason": "짠맛이 수의 기운"
+            },
+            {
+                "name": "오징어볶음",
+                "category": "반찬",
+                "reason": "해산물의 수 기운"
+            },
+            {
+                "name": "김밥",
+                "category": "분식",
+                "reason": "김의 검은색이 수의 기운"
+            }
+        ],
+        "avoidFoods": [
+            {
+                "name": "고구마",
+                "reason": "토의 기운이 수를 극합니다"
+            },
+            {
+                "name": "단 음식",
+                "reason": "과도한 단맛은 신장에 부담"
+            }
+        ],
+        "toppings": [
+            "앤초비",
+            "새우",
+            "올리브",
+            "케이퍼"
+        ]
+    }
+}
